@@ -548,6 +548,11 @@ p {
    max-width: 80px;
 }
 
+.logo-gray img {
+   filter: grayscale(90%);
+   max-width: 80px !important;
+}
+
 .navbar-toggler {
    padding: 0px;
 }
