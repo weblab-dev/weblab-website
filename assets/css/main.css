@@ -281,7 +281,16 @@ p {
    font-size: 18px;
    box-shadow: none;
 }
-
+.no-radius-btn {
+   border-radius: 5px !important;
+   padding: 8px 8px !important;
+   color: #04a7e8 !important;
+   margin-top: 3.2px;
+}
+.no-radius-btn:is(:hover, :active, :focus) {
+   background: #04a7e8;
+   color: #fff !important;
+}
 .scroll-top {
    width: 45px;
    height: 45px;
@@ -2629,8 +2638,8 @@ p {
    color: #fff;
 }
 
-.mt-2 {
-   margin-top: 2px;
+.mt-4 {
+   margin-top: 4px;
 }
 
 .mt-5 {
