@@ -1,0 +1,28 @@
+.hidden {
+   opacity: 0;
+   transition: all 1s ease-in-out;
+}
+.show {
+   opacity: 1 !important;
+}
+.hidden.fadeInUp {
+   transform: translateY(40%);
+}
+.show.fadeInUp {
+   transform: translateY(0%);
+}
+
+.hidden.fadeInDown{
+   transform: translateY(-40%);
+}
+.show.fadeInDown {
+   transform: translateY(0%);
+}
+
+.hidden.fadeInLeft{
+   position: relative;
+   transform: translateX(-40%);
+}
+.show.fadeInLeft {
+   transform: translateX(0%);
+}
