@@ -208,6 +208,12 @@ p {
    }
 }
 
+@media only screen and (min-width: 770px) and (max-width: 884px) {
+   #apresentacao {
+      margin-top: 37rem !important;
+   }
+}
+
 .img-bg {
    background-position: center center;
    background-size: cover;
