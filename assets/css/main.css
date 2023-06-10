@@ -276,6 +276,47 @@ p {
    background-size: 200% auto;
    overflow: hidden;
 }
+.whatsapp-btn,
+.instagram-btn {
+   display: inline-block;
+   font-weight: 400;
+   text-align: center;
+   white-space: nowrap;
+   vertical-align: middle;
+   user-select: none;
+   padding: 16px 48px;
+   font-size: 18px;
+   border-radius: 50px;
+   color: #fff;
+   cursor: pointer;
+   z-index: 5;
+   transition: all 0.4s ease-in-out;
+   border: none;
+   background-size: 200% auto;
+   overflow: hidden;
+}
+.whatsapp-btn {
+   background: rgb(0, 200, 54);
+}
+.whatsapp-btn:is(:hover, :focus) {
+   box-shadow: 0px 0px 30px rgb(0, 224, 60) !important;
+   color: #fff !important;
+}
+.instagram-btn {
+   background: linear-gradient(
+      to right,
+      #833ab4,
+      #c13584,
+      #e1306c,
+      #fd1d1d,
+      #f56040,
+      #ffd700
+   );
+}
+.instagram-btn:is(:hover, :focus) {
+   box-shadow: 0px 0px 30px #e0478f !important;
+   color: #fff !important;
+}
 
 .theme-btn:hover,
 .theme-btn:focus {
