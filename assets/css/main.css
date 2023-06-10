@@ -41,6 +41,9 @@ body {
 .text-primary {
    color: #04a7e8 !important;
 }
+.text-small {
+   font-size: 14px !important;
+}
 .accordion-item {
    margin-bottom: 1rem;
 }
@@ -208,9 +211,11 @@ p {
    }
 }
 
-@media only screen and (min-width: 770px) and (max-width: 884px) {
+@media only screen and (min-width: 770px) and (max-width: 1000px) {
    #apresentacao {
-      margin-top: 37rem !important;
+      margin-top: 40rem !important;
+      /*position: relative;
+      transform: translateY(60rem);*/
    }
 }
 
@@ -292,6 +297,7 @@ p {
    padding: 8px 8px !important;
    color: #04a7e8 !important;
    margin-top: 3.2px;
+   max-width: 90vw;
 }
 .no-radius-btn:is(:hover, :active, :focus) {
    background: #04a7e8;
@@ -2642,6 +2648,10 @@ p {
 .footer-social-links ul li a:hover {
    background: linear-gradient(#00cdd4 0%, #04a7e8 100%);
    color: #fff;
+}
+
+.mt-1 {
+   margin-top: 2.5px;
 }
 
 .mt-4 {
