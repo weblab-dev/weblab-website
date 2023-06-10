@@ -5,6 +5,7 @@
 .show {
    opacity: 1 !important;
 }
+
 .hidden.fadeInUp {
    transform: translateY(40%);
 }
