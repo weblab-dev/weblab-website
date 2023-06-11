@@ -315,7 +315,12 @@ p {
 }
 .instagram-btn:is(:hover, :focus) {
    box-shadow: 0px 0px 30px #e0478f !important;
+   position: relative;
    color: #fff !important;
+}
+
+.scale-btn:is(:hover, :focus) {
+   transform: scale(105%);
 }
 
 .theme-btn:hover,
